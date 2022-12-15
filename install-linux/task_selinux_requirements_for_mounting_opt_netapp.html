@@ -11457,7 +11457,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-11 16:47:30 +0000">11/11/2022</time>
+    <time datetime="2022-12-14 18:47:36 +0000">12/14/2022</time>
     
   
 
@@ -11478,7 +11478,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="optnetappdata가-마운트된-경우-selinux-컨텍스트-구성">/opt/netapp/data가 마운트된 경우 SELinux 컨텍스트 구성</h2>
+<h2 id="selinux-컨텍스트-구성-시기-optnetappdata-탑재됩니다">SELinux 컨텍스트 구성 시기 <code>/opt/netapp/data</code> 탑재됩니다</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>을(를) 장착한 경우 <code>/opt/netapp/data</code> 시스템과 SELinux가 로 설정되어 있습니다 <code>Enforcing`에 대한 SELinux 컨텍스트 유형이 있는지 확인합니다 `/opt/netapp/data</code> 가 로 설정되어 있습니다 `mysqld_db_t`데이터베이스 파일 위치에 대한 기본 컨텍스트 요소입니다.</p>
@@ -11557,7 +11557,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="optnetapp이-마운트되면-selinux-컨텍스트를-구성하고-optnetappdata도-별도로-마운트합니다">/opt/NetApp이 마운트되면 SELinux 컨텍스트를 구성하고 /opt/netapp/data/도 별도로 마운트합니다</h2>
+<h2 id="selinux-컨텍스트-구성-시기-optnetapp-이가-장착된-경우-및-입니다-optnetappdata-또한-별도로-장착됩니다">SELinux 컨텍스트 구성 시기 <code>/opt/netapp</code> 이(가) 장착된 경우 및 입니다 <code>/opt/netapp/data/</code> 또한 별도로 장착됩니다</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>이 시나리오에서는 먼저 에 대한 컨텍스트를 설정해야 합니다 <code>/opt/netapp/data/</code> 이전 섹션에서 설명한 대로 에 대한 올바른 컨텍스트를 설정한 후 <code>/opt/netapp/data/`상위 디렉토리가 있는지 확인합니다 `/opt/netapp</code> 에 SELinux 컨텍스트가 설정되어 있지 않습니다 <code>file_t</code>.</p>
@@ -11640,7 +11640,7 @@ restorecon -v /opt/netapp</pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="optnetapp이-마운트되고-optnetappdata가-별도로-마운트되지-않은-경우-selinux-컨텍스트를-구성합니다">/opt/NetApp이 마운트되고 /opt/netapp/data/가 별도로 마운트되지 않은 경우 SELinux 컨텍스트를 구성합니다</h2>
+<h2 id="selinux-컨텍스트-구성-시기-optnetapp-이가-장착된-경우-및-입니다-optnetappdata-은는-별도로-마운트되지-않습니다">SELinux 컨텍스트 구성 시기 <code>/opt/netapp</code> 이(가) 장착된 경우 및 입니다 <code>/opt/netapp/data/</code> 은(는) 별도로 마운트되지 않습니다</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>을(를) 장착한 경우  <code>/opt/netapp</code> 시스템과 SELinux가 로 설정되어 있습니다 <code>Enforcing`에 대한 SELinux 컨텍스트 유형이 있는지 확인합니다 `/opt/netapp</code> 가 로 설정되어 있습니다 `mysqld_db_t`데이터베이스 파일 위치에 대한 기본 컨텍스트 요소입니다.</p>
