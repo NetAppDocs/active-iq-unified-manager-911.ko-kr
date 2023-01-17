@@ -6687,8 +6687,6 @@
   <block id="a76fa066c70cf129cefc5940d94d613d" category="paragraph">Get 메서드를 사용하면 이름, 전자 메일 주소, 역할, 권한 부여 유형 등 사용자의 모든 세부 정보를 검색할 수 있습니다. 패치 방법을 사용하면 세부 정보를 업데이트할 수 있습니다. 삭제 방법을 사용하면 사용자를 제거할 수 있습니다.</block>
   <block id="7e93035a4c7813c403d410e855881994" category="summary">Active IQ Unified Manager REST API는 HTTP 요청을 실행할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다. Unified Manager는 기본 HTTP 인증 메커니즘을 지원합니다. Unified Manager REST API를 호출하기 전에 사용자를 인증해야 합니다.</block>
   <block id="3abf2b6a30dc1d8e6cf4f22d87fc74eb" category="doc">Active IQ Unified Manager에서 REST API 액세스 및 인증</block>
-  <block id="b71baaae518b4cfba321e56a31bf83cf" category="section-title">REST 액세스</block>
-  <block id="d05ac65fe6e169d97d8dc16811093c9e" category="paragraph">HTTP 요청을 실행하여 Unified Manager REST API에 액세스할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용할 수 있습니다. 예를 들어, Unified Manager에 로그인한 후 모든 브라우저에 URL을 입력하여 관리 스테이션 이름, 키, IP 주소와 같은 모든 관리 스테이션의 속성을 검색할 수 있습니다.</block>
   <block id="4da26f41c3171457f3ddbf53c4ce357c" category="list-text">* 요청 *</block>
   <block id="03f44bcdeb9eac56b2f45afcb82d3368" category="list-text">* 응답 *</block>
   <block id="eb6391db314b5af4580f33130f643fa1" category="list-text"><block ref="650ecb8f30701643120c1b542226a9c1" prefix="" category="inline-code"></block> API 서버의 IP 주소 또는 FQDN(정규화된 도메인 이름)입니다.</block>
@@ -11628,4 +11626,6 @@
   <block id="25cd83fcc24b4664d675c70561908db4" category="section-title">SELinux 컨텍스트 구성 시기<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 탑재됩니다</block>
   <block id="8952b2e8f374ce39efcf65ab76f1fb96" category="section-title">SELinux 컨텍스트 구성 시기<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 이(가) 장착된 경우 및 입니다<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 또한 별도로 장착됩니다</block>
   <block id="c0f62aa70775648ddb09e5af32691c1a" category="section-title">SELinux 컨텍스트 구성 시기<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 이(가) 장착된 경우 및 입니다<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 은(는) 별도로 마운트되지 않습니다</block>
+  <block id="f9344604b22486566c3e6d70cc163f8b" category="paragraph">Active IQ Unified Manager REST API는 기본적인 HTTP 인증 메커니즘을 통해 HTTP 요청을 실행할 수 있는 REST 클라이언트 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다.</block>
+  <block id="e5595563cfe055cddbdb1a7ae1efcfad" category="paragraph">샘플 요청 및 응답:</block>
 </blocks>
