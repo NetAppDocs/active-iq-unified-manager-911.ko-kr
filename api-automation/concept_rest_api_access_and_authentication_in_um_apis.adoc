@@ -17,12 +17,9 @@ Active IQ Unified Manager REST API는 기본적인 HTTP 인증 메커니즘을 �
 
 * * 요청 *
 +
-가져오기
-
-
-
 [listing]
 ----
+GET
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 * * 응답 *
@@ -103,7 +100,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 
 
 +
-웹 브라우저에서 POST, 패치 및 HTTP 요청을 삭제하려면 브라우저 플러그인을 사용해야 합니다. CURL 및 Perl과 같은 스크립팅 플랫폼을 사용하여 REST API에 액세스할 수도 있습니다.
+웹 브라우저에서 HTTP 요청을 실행하려면 REST API 브라우저 플러그인을 사용해야 합니다. CURL 및 Perl과 같은 스크립팅 플랫폼을 사용하여 REST API에 액세스할 수도 있습니다.
 
 
 
