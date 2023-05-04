@@ -8657,9 +8657,6 @@
   <block id="8a89f6664254d9a94578dae683c48cce" category="list-text">에서 콘텐츠를 복사합니다<block ref="9a284b8d10072a11cb0d5402d3bdcc42" prefix=" " category="inline-code"></block> 확장된 으로 돌아갑니다<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 디렉터리:</block>
   <block id="fee984743f91b24dec86f77ceb6dd622" category="summary">클러스터 설정 페이지를 사용하여 클러스터 인벤토리를 볼 수 있습니다. 이름 또는 IP 주소, 통신 상태와 같은 클러스터에 대한 세부 정보를 볼 수 있습니다.</block>
   <block id="ee45945ca017877dfd40f7584086a95c" category="doc">모니터링되는 클러스터 목록 보기</block>
-  <block id="9dc7252bbef57ce4f0d03bcddb84711c" category="paragraph">클러스터 목록은 컬렉션 상태 심각도 수준 열을 기준으로 정렬됩니다. 열 머리글을 클릭하여 클러스터를 다른 열을 기준으로 정렬할 수 있습니다.</block>
-  <block id="45ec896bf3e43c4d453f4fa4f22106ca" category="inline-link-macro">구성/클러스터 데이터 소스 페이지</block>
-  <block id="01b124e9964263d377fc183d69afb2ed" category="paragraph"><block ref="01b124e9964263d377fc183d69afb2ed" category="inline-link-macro-rx"></block></block>
   <block id="88c88f6b56a9d98bd33b05c15caf1b59" category="summary">사용자 및 그룹 할당량 이메일 주소 생성 규칙 페이지에서는 클러스터, SVM, 볼륨, Qtree, 사용자, 애플리케이션 등과 관련된 사용자 할당량을 기준으로 이메일 주소를 지정하는 규칙을 또는 사용자 그룹. 할당량이 침해되면 지정된 e-메일 주소로 알림이 전송됩니다.</block>
   <block id="51ec35fdada9b22f0ab61058a1d6b10a" category="doc">사용자 및 그룹 할당량 이메일 주소 생성 규칙 페이지</block>
   <block id="38177b330d524696f6cd3f56f4146279" category="section-title">규칙 영역</block>
@@ -11575,8 +11572,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">더 많은 리소스</block>
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager 비디오</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 블로그</block>
-  <block id="a28def0e6555993fb14b2d945874f854" category="sidebar">Active IQ Unified Manager 9.10 설명서</block>
-  <block id="b4326b5cab8385bbedf7c504d8569004" category="sidebar">이전 버전 설명서</block>
   <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager를 참조하십시오</block>
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">구성 및 관리 작업을 수행합니다</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">클러스터 상태를 모니터링하고 관리합니다</block>
@@ -11647,4 +11642,7 @@
   <block id="d2136c0320bc784ec5e976cc7c71f93d" category="sidebar">스토리지 VM 상태에 대한 세부 정보입니다</block>
   <block id="fbf5dae3b577d533c0b3785c65a5e93f" category="sidebar">클러스터 상태에 대한 세부 정보입니다</block>
   <block id="3a63c6b863ef9b4f54c6281b5910c2f9" category="sidebar">상태 세부 정보를 집계합니다</block>
+  <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> MySQL Server를 시작 및 중지하는 데 필요한 데몬 프로그램입니다.</block>
+  <block id="13490f69efe6e04b704eff78476a43b8" category="paragraph">Unified Manager가 관리하는 스토리지 환경의 모든 클러스터가 표시됩니다. 클러스터 목록은 컬렉션 상태 심각도 수준 열을 기준으로 정렬됩니다. 열 머리글을 클릭하여 클러스터를 다른 열을 기준으로 정렬할 수 있습니다.</block>
+  <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Active IQ Unified Manager 9.9 이전 버전에 대한 문서</block>
 </blocks>
