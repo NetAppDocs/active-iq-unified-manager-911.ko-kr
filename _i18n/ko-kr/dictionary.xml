@@ -10730,7 +10730,6 @@
   <block id="ae48afa96207ddbaa3cc0fd8af90a98e" category="list-text">복원할 클러스터, SVM 및 볼륨을 선택합니다.</block>
   <block id="bc621350fbc23e6ec1741153ed6e331f" category="list-text">이름 테이블에서 디렉토리 이름을 선택합니다.</block>
   <block id="2d0fcfb8d7bf7c097d1eab05f1ec38bf" category="list-text">디렉터리 선택 * 을 클릭합니다.</block>
-  <block id="747c77249313eab0521246ecfbad977b" category="paragraph">NDMP 오류가 있는 Cloud Volumes ONTAP HA 클러스터 간에 복구 작업이 실패할 경우 대상이 소스 시스템의 클러스터 관리 LIF와 통신할 수 있도록 타겟 클러스터에 명시적 AWS 경로를 추가해야 할 수 있습니다. BlueXP를 사용하여 이 구성 단계를 수행합니다.</block>
   <block id="189f93def48c68b653c00a0dfbb1d38d" category="summary">스토리지 서비스와 관련된 일부 SVM 연관 및 리소스 풀 요구사항을 관찰하면 파트너 애플리케이션이 더욱 잘 부합되도록 보장할 수 있습니다. 예를 들어, SVM을 연결하고 Unified Manager에서 리소스 풀을 생성하여 파트너 애플리케이션이 제공하는 스토리지 서비스의 보호 토폴로지를 지원할 수 있습니다.</block>
   <block id="7ac9f5b335cd5f6e950d9115ce798e47" category="doc">스토리지 서비스를 지원하기 위한 SVM 및 리소스 풀 요구사항</block>
   <block id="b68fef249be4b0a84f16a19da73b2d3d" category="paragraph">일부 애플리케이션은 Unified Manager 서버와 파트너 관계를 맺고, 소스 볼륨과 2차 또는 3차 위치의 보호 볼륨 간에 SnapMirror 또는 SnapVault 백업 보호를 자동으로 구성 및 실행하는 서비스를 제공합니다. 이러한 보호 스토리지 서비스를 지원하려면 Unified Manager를 사용하여 필요한 SVM 연결 및 리소스 풀을 구성해야 합니다.</block>
@@ -11649,4 +11648,5 @@
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="770d65da77d99b47e750a7f85ba6e067" category="paragraph">규정 준수는 을<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>기반으로 합니다. 패널 상단의 오른쪽 화살표를 클릭하여 보안 페이지의 모든 클러스터에 대한 보안 세부 정보를 봅니다. 자세한 내용은 을 참조하십시오 <block ref="13e0397bd43d0f4ef0a0e2d1f1544b6c" category="inline-link-macro-rx"></block></block>
+  <block id="1daba90506b1f94ee6106dc86aa53476" category="paragraph">NDMP 오류로 인해 Cloud Volumes ONTAP HA 클러스터 간 복원 작업이 실패하는 경우 대상 클러스터에 명시적인 AWS 경로를 추가해야 할 수 있습니다. 그래야 대상이 소스 시스템의 클러스터 관리 LIF와 통신할 수 있습니다. NetApp 콘솔을 사용하여 이 구성 단계를 수행합니다.</block>
 </blocks>
