@@ -26,6 +26,7 @@ summary: 성능 임계값 정책은 스토리지 개체에 할당되므로 개�
 ====
 
 
+[[threshold-policy-functionality-during-ha-takeover-and-giveback]]
 == HA 테이크오버 및 반환 중 임계값 정책 기능
 
 고가용성(HA) 구성에서 테이크오버 또는 반환 작업이 발생하는 경우 한 노드에서 다른 노드로 이동된 객체는 수동 이동 작업과 동일한 방식으로 임계값 정책을 유지합니다. Unified Manager에서는 15분마다 클러스터 구성의 변경 사항을 확인하기 때문에, 클러스터 구성을 다음에 폴링할 때까지 새 노드로 전환할 때 미치는 영향이 식별되지 않습니다.
@@ -37,12 +38,14 @@ summary: 성능 임계값 정책은 스토리지 개체에 할당되므로 개�
 ====
 
 
+[[threshold-policy-functionality-during-aggregate-relocation]]
 == 애그리게이트 재배치 중 임계값 정책 기능
 
 를 사용하여 한 노드에서 다른 노드로 애그리게이트를 이동하는 경우 `aggregate relocation start` 명령, 단일 및 조합 임계값 정책이 모든 개체에 유지되고 임계값 정책의 노드 부분이 새 노드에 적용됩니다.
 
 
 
+[[threshold-policy-functionality-during-metrocluster-switchover]]
 == MetroCluster 절체 시 Threshold 정책 기능
 
 MetroCluster 구성에서 클러스터 간에 이동하는 오브젝트에는 사용자 정의 임계값 정책 설정이 유지되지 않습니다. 필요한 경우 파트너 클러스터로 이동한 볼륨 및 LUN에 임계값 정책을 적용할 수 있습니다. 오브젝트가 원래 클러스터로 다시 이동되면 사용자 정의 임계값 정책이 자동으로 다시 적용됩니다.

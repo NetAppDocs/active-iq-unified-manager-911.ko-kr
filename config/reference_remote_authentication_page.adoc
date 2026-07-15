@@ -130,6 +130,7 @@ Active Directory, OpenLDAP 등의 디렉터리 서비스 공급자에서 사용�
 
 
 
+[[authentication-servers-area]]
 == Authentication Servers 영역
 
 인증 서버 영역에는 관리 서버가 원격 사용자를 찾고 인증하기 위해 통신하는 인증 서버가 표시됩니다. 원격 사용자 또는 그룹에 대한 자격 증명은 인증 서버에서 관리합니다.

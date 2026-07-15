@@ -15,6 +15,7 @@ MetroCluster 브리지 이벤트는 잠재적인 문제를 모니터링할 수 �
 
 
 
+[[impact-area-availability]]
 == 영향 영역: 가용성
 
 |===

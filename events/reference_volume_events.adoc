@@ -17,6 +17,7 @@ summary: 볼륨 이벤트는 잠재적인 문제를 모니터링할 수 있는 �
 
 
 
+[[impact-area-availability]]
 == 영향 영역: 가용성
 
 |===
@@ -145,6 +146,7 @@ Volume Autosize(볼륨 자동 크기) - Disabled(사용 안 함)(해당 없음)
 |===
 
 
+[[impact-area-capacity]]
 == 충격 영역: 용량
 
 |===
@@ -449,6 +451,7 @@ FlexGroup 볼륨이 90% 이상 활용되었습니다 *
 |===
 
 
+[[impact-area-configuration]]
 == 충격 영역: 구성
 
 |===
@@ -489,6 +492,7 @@ FlexGroup 볼륨이 90% 이상 활용되었습니다 *
 |===
 
 
+[[impact-area-performance]]
 == 충격 영역: 성능
 
 |===
@@ -782,6 +786,7 @@ QoS 볼륨 최대 IOPS/TB 경고 임계값 위반(문서 QosVolumeMaxIopsPerTbWa
 |===
 
 
+[[impact-area-security]]
 == 충격 영역: 보안
 
 |===
@@ -899,6 +904,7 @@ QoS 볼륨 최대 IOPS/TB 경고 임계값 위반(문서 QosVolumeMaxIopsPerTbWa
 |===
 
 
+[[impact-area-data-protection]]
 == 충격 영역: 데이터 보호
 
 |===

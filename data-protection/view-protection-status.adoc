@@ -29,6 +29,7 @@ summary: 데이터 보호 페이지는 데이터 센터의 모든 보호된 볼�
 
 
 
+[[view-protection-status-of-volumes-protected-by-snapshot-copies]]
 == 스냅샷 복사본으로 보호되는 볼륨의 보호 상태를 봅니다
 
 * Snapshot 복사본 개요 *: 다음과 같이 Snapshot 복사본으로 보호되는 볼륨에 대한 개요:
@@ -47,6 +48,7 @@ summary: 데이터 보호 페이지는 데이터 센터의 모든 보호된 볼�
 
 
 
+[[points-to-note-for-snapshot-copies]]
 === Snapshot 복사본에 대해 메모할 사항입니다
 
 * 스냅샷 복사본으로 보호되는 볼륨을 계산할 때는 소스 볼륨과 타겟 볼륨을 모두 고려합니다.
@@ -57,6 +59,7 @@ summary: 데이터 보호 페이지는 데이터 센터의 모든 보호된 볼�
 
 
 
+[[view-protection-status-for-snapmirror-relationships]]
 == SnapMirror 관계의 보호 상태를 봅니다
 
 * SnapMirror 개요 *: 다음과 같이 SnapMirror 정책으로 보호되는 볼륨에 대한 개요:
@@ -76,6 +79,7 @@ summary: 데이터 보호 페이지는 데이터 센터의 모든 보호된 볼�
 
 
 
+[[points-to-note-for-snapmirror-relationships]]
 === SnapMirror 관계에 대한 참고 사항을 나타냅니다
 
 * SnapMirror 관계를 계산할 때는 읽기 및 쓰기가 가능한 소스 볼륨이 계산됩니다. 대상 및 루트 볼륨은 고려되지 않습니다.

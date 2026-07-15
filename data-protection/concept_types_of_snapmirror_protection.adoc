@@ -15,6 +15,7 @@ summary: 데이터 스토리지 토폴로지 구축에 따라 Unified Manager를
 
 
 
+[[traditional-snapmirror-asynchronous-protection-relationships]]
 == 기존의 SnapMirror 비동기식 보호 관계
 
 기존의 SnapMirror 비동기식 보호 기능은 소스 볼륨과 타겟 볼륨 간의 블록 복제 미러 보호 기능을 제공합니다.
@@ -23,6 +24,7 @@ summary: 데이터 스토리지 토폴로지 구축에 따라 Unified Manager를
 
 
 
+[[snapmirror-asynchronous-protection-with-version-flexible-replication]]
 == 버전에 상관없이 유연하게 복제할 수 있는 SnapMirror 비동기식 보호
 
 버전에 상관없이 유연하게 복제할 수 있는 SnapMirror 비동기식 보호 기능은 소스 볼륨과 타겟 볼륨 간에 논리적 복제 미러 보호 기능을 제공합니다. 이는 서로 다른 버전의 ONTAP 8.3.1, 8.3.1에서 9.1, 9.2.2 에서 9.2 등)로 실행 중인 볼륨에서도 마찬가지입니다.
@@ -39,6 +41,7 @@ summary: 데이터 스토리지 토폴로지 구축에 따라 Unified Manager를
 
 
 
+[[snapmirror-asynchronous-protection-with-version-flexible-replication-and-backup-option]]
 == 버전에 상관없이 유연하게 복제 및 백업 옵션을 사용하는 SnapMirror 비동기 보호
 
 버전에 상관없이 유연하게 복제 및 백업 옵션을 사용하는 SnapMirror 비동기 보호 기능은 소스 볼륨과 타겟 볼륨 간의 미러링 보호 기능과 미러링된 데이터의 여러 복사본을 대상에 저장하는 기능을 제공합니다.
@@ -49,18 +52,21 @@ summary: 데이터 스토리지 토폴로지 구축에 따라 Unified Manager를
 
 
 
+[[snapmirror-unified-replication-mirror-and-vault]]
 == SnapMirror 유니파이드 복제(미러링 및 소산)
 
 SnapMirror 통합 복제를 사용하면 동일한 대상 볼륨에 재해 복구 및 아카이빙을 구성할 수 있습니다. SnapMirror와 마찬가지로 통합 데이터 보호는 처음 호출할 때 기본 전송을 수행합니다. 기본 통합 데이터 보호 정책 ""MirorAndVault""에 따른 기본 전송은 소스 볼륨의 스냅샷 복사본을 만든 다음, 해당 복사본과 데이터 블록이 대상 볼륨에 참조되도록 전송합니다. SnapVault와 마찬가지로, 통합 데이터 보호에도 이전 Snapshot 복사본이 기본 안에 포함되지 않습니다.
 
 
 
+[[snapmirror-synchronous-protection-with-strict-synchronization]]
 == SnapMirror Synchronous 보호 및 엄격한 동기화
 
 "사전" 동기화로 SnapMirror Synchronous를 활용하면 1차 볼륨과 2차 볼륨이 항상 서로 진정한 복제본으로 유지됩니다. 보조 볼륨에 데이터를 쓰려고 할 때 복제 실패가 발생하면 운영 볼륨에 대한 클라이언트 입출력이 중단됩니다.
 
 
 
+[[snapmirror-synchronous-protection-with-regular-synchronization]]
 == SnapMirror Synchronous 보호 - 정기적인 동기화
 
 "리큘러" 동기화를 통한 SnapMirror Synchronous 보호에서는 1차 볼륨과 2차 볼륨이 항상 서로 진정한 복사본일 필요가 없으며, 따라서 1차 볼륨의 가용성이 보장됩니다. 보조 볼륨에 데이터를 쓰려고 할 때 복제 실패가 발생하면 운영 볼륨과 보조 볼륨이 동기화되지 않고 클라이언트 입출력이 운영 볼륨으로 계속됩니다.
@@ -72,6 +78,7 @@ SnapMirror 통합 복제를 사용하면 동일한 대상 볼륨에 재해 복�
 ====
 
 
+[[snapmirror-synchronous-business-continuity]]
 == SnapMirror Synchronous 비즈니스 연속성
 
 ONTAP 9.8 이상에서는 SnapMirror SM-BC(비즈니스 연속성) 기능을 사용할 수 있으며, 이 기능을 사용하여 LUN이 있는 애플리케이션을 보호할 수 있으므로 애플리케이션이 투명하게 페일오버할 수 있으므로 재해 발생 시 비즈니스 연속성을 보장할 수 있습니다.
